@@ -20,17 +20,14 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# comparison
 
-To learn more about Next.js, take a look at the following resources:
+## Chakra UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Documentation: Well written documentation with many examples. Additionaly we can find many pre-build templates such as: https://chakra-templates.dev/navigation/navbar
+Usage: Straigh-forward
+Cons:
+-  Chakra UI works somewhat fine with SSR with the old /pages, but it doesn't work yet with the new /app directory to use it we can add 'use client' on top file but then they'll be CSR not SSR TLDR: Chakra doesn’t support SSR.
+Pros:
+- big community
+- components

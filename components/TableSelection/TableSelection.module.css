@@ -1,0 +1,7 @@
+.rowSelected {
+  background-color: var(--mantine-color-blue-light);
+}
+.table {
+  max-width: 800px;
+  margin: 0 auto;
+}
